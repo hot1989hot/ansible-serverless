@@ -11,5 +11,5 @@ RUN apt-get update && apt-get install google-cloud-sdk -y
 RUN ansible --version
 RUN ansible-playbook --version
 RUN gcloud --version
-# ENTRYPOINT ["/usr/bin/ansible-playbook"]
-ENTRYPOINT ["/usr/bin/bash"]
+ENTRYPOINT ["/usr/bin/ansible-playbook"]
+# ENTRYPOINT ["/usr/bin/bash"]
